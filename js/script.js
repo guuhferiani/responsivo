@@ -1,5 +1,6 @@
 // tres constantes para referenciar as "ITEM" divs Projetos
-const form = document.getElementById('formulario');
+const form = document.getElementById('formulario');  
+// "const" = Escopo Global - boa pratica é "declar" variavel
 const site = document.getElementById('site');
 const port = document.getElementById('portifolio');
 const movieform = document.querySelector('.movieform');
